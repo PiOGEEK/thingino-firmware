@@ -15,6 +15,6 @@ webrtc:
     - stun:8555
 
 streams:
-  jpeg: http://thingino:thingino@127.0.0.1/image.jpg
-  rtsp-high: rtsp://thingino:thingino@127.0.0.1/ch0
-  rtsp-low: rtsp://thingino:thingino@127.0.0.1/ch1
+  jpeg: http://admin:thingino@127.0.0.1/image.jpg
+  rtsp-high: rtsp://admin:thingino@127.0.0.1/ch0
+  rtsp-low: rtsp://admin:thingino@127.0.0.1/ch1
