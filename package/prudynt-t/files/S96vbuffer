@@ -14,7 +14,7 @@ read_logcat() {
 	[ -z "$_" ] || echo "$2"
 }
 
-rtsp_username=$(read_config "username" "thingino")
+rtsp_username=$(read_config "username" "admin")
 rtsp_password=$(read_config "password" "thingino")
 rtsp_width=$(read_logcat "5" "640")
 rtsp_height=$(read_logcat "7" "360")
