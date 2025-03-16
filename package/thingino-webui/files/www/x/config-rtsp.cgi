@@ -10,7 +10,7 @@ onvif_notify=/etc/init.d/S97onvif_notify
 
 rtsp_username=$(awk -F: '/Streaming Service/{print $1}' /etc/passwd)
 default_for rtsp_username "$(awk -F'"' '/username/{print $2}' $prudynt_config)"
-default_for rtsp_username "thingino"
+default_for rtsp_username "admin"
 
 default_for rtsp_password "$(awk -F'"' '/password/{print $2}' $prudynt_config)"
 default_for rtsp_password "thingino"
