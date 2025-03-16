@@ -4,7 +4,7 @@
 
 ENABLED=false
 INTERVAL=60
-RTSP_URL="rtsp://thingino:thingino@127.0.0.1/ch0"
+RTSP_URL="rtsp://admin:thingino@127.0.0.1/ch0"
 RETRY_COUNT=3            # Number of retries before declaring the stream down
 RETRY_DELAY=10           # Delay in seconds between retry attempts
 RESTART_LIMIT=3          # Maximum number of restarts before alerting
