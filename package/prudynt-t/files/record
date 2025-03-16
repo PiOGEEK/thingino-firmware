@@ -124,7 +124,7 @@ mountpoint -q "$record_mount" || hesitate "Mountpoint $record_mount is not mount
 [ -z "$record_duration"  ] && record_duration=10
 [ -z "$record_filename"  ] && record_filename="%hostname/%Y/%m/%d/%H-%M-%S"
 [ -z "$record_videofmt"  ] && record_videofmt="mp4"
-rtsp_username=$(read_config "username" "thingino")
+rtsp_username=$(read_config "username" "admin")
 rtsp_password=$(read_config "password" "thingino")
 [ -z "$stream_number"    ] && stream_number=0
 # FIXME: based on default stream endpoint name, won't work on custom endpoints
